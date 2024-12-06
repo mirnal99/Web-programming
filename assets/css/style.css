@@ -1,0 +1,204 @@
+.container{
+  background-color: white;
+}
+
+body, html{
+  font-family: 'Helvetica', sans-serif;
+}
+
+.sidebar1{
+  background-color: rgb(51,59,70);
+  padding-bottom: 100%;
+  flex: 1.5;
+  align-items: center;
+  color: rgba(213, 214, 205, 0.801);
+  font-family:  Helvetica;
+  width: 200px;
+  flex-direction: column;
+  position: fixed;
+}
+
+.sidebar2{
+  background-color: rgb(68,124,172);
+  flex: 1.5;
+  color: white;
+  font-family:  Helvetica;
+  height: 100%;
+  width: 200px;
+  flex-direction: column;
+  position: fixed;
+  left: 200px;
+}
+
+.main{
+  background-color: white;
+  flex: 8;
+  font-family:  Helvetica;
+  left:400px;
+  position: fixed;
+  display: inline-block;
+  padding:25px;
+  width:1000px;
+}
+
+.sidebar1 > h1{
+  font-size: x-large;
+  border-bottom: 1px solid rgb(40,46,56);
+  padding: 15px;
+  word-spacing: 3px;
+}
+
+.sidebar2 > h2{
+  font-size: x-large;
+  word-spacing: 3px;
+  padding: 17px;
+  border-bottom: 1.5px solid rgb(58, 114,165);
+}
+
+.stupac1{
+  display: block;
+
+} 
+
+.stupac1 > li:hover{
+  background-color: rgb(68,78,92);
+}
+
+.razmak{
+  padding-right: 20px;
+}
+
+.sidebar1 > ul > li{
+  font-size: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  word-spacing: 10px;
+  padding-top: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(40,46,56);
+}
+
+.sidebar2 > ul > div{
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 25px;
+  font-size: 13px;
+  border-bottom: 1.5px solid rgb(58, 114,165);
+  font-weight: bold;
+}
+
+.poredaj{
+  display: flex;
+  padding-top:8px;
+  border-bottom: 1.5px solid rgb(58, 114,165);
+  color: rgb(115, 180, 204);
+  font-size: 9px;
+  padding-bottom: 8px;
+  padding-left: 100px;
+}
+
+.br_predmeta{
+  font-size: 9px;
+  padding-top: 5px;
+  color: rgb(115, 180, 204);
+}
+
+.arrow{
+  padding-left: 5px;
+  height: 7px;
+}
+
+.main > .top{
+  font-size: 30px;
+  padding-left: 10px;
+  display: flex;
+  color: rgb(102,102,102);
+  padding-top: 35px;
+}
+
+.spremi{
+  margin-left: 700px;
+  color: white;
+  background-color: rgb(240,72,72);
+  border-color: rgb(240,72,72);
+  border-style: solid dashed double;
+  height: 32px;
+  width: 75px;
+  border-radius:7px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.table1{
+  padding-top: 30px;
+  
+}
+
+.table2{
+  text-align: left;
+  padding-top: 40px;
+}
+
+.t1{
+  background-color: rgb(242,242,242);
+  width: 1050px;
+  text-align: left;
+  text-indent: 25px;
+  border-top: 1px solid rgb(207, 207, 207);
+  border-spacing: 50px;
+}
+
+.podatci1{
+  padding-bottom: 10px;
+  color: rgb(102,102,102);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.podatci2{
+  border-bottom: 1px solid rgb(207, 207, 207);
+  padding-bottom: 10px;
+  color: rgb(102,102,102);
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.ime1{
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: rgb(226,224,228);
+  font-size: 10px;
+  border-top: 1px solid rgb(207, 207, 207);
+} 
+
+.ime2{
+  font-size: 12px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  color: rgb(212,194,188);
+} 
+
+.t2{
+  background-color: white;
+  width: 1050px;
+  height: 100%;
+  text-indent: 20px;
+  border-spacing: 50px;
+}
+
+.blok{
+  padding-left: 10px;  
+  border-bottom: 1px solid rgb(207, 207, 207);
+  color: rgb(102,102,127);
+}
+
+.nazivi, .stanja, .box, .ocekivano{
+  padding-left: 15px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  font-size: 13px;
+  color: rgb(102,102,127);
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
