@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR_dz04</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <script src="./assets/script.js"></script>
+
+<!--     <style>
+    @media (max-width: 575px){
+            html, body{   
+                
+            }
+            #sve{
+                height: 300px;
+            }
+            .buttons{
+              
+            }
+        }
+    </style> -->
+
+</head>
+<body>
+    <div id="sve" class="container-fluid row mt-3">
+        <div id ="calculator" class=" offset-4 col-4 offset-sm-3 col-sm-6 offset-xl-4 col-xl-4" >
+                <div class="ekran px-3 py-0">
+                    <div class="ekran col-11 mx-auto text-right">
+                        <form id="unos" name ="screen1"class="row text-right justify-content-center mt-3 ">
+                            <input type="text" name="screen1" id="display1"  class=" text-right bg-dark " style="font-family:'VT323' ; min-height: 40px ;font-size:35px; border: 0cm; text-align: right;">
+                        </form>
+                        <form id="rezultat" name="screen2" class="row text-right justify-content-center">
+                            <input type="text" name= "display2" id="display2" class=" text-right bg-dark " style="font-family:'VT323';  min-height: 40px ; font-size:35px; border: 0cm; text-align: right;">
+                        </form>
+                    </div>
+                
+                    <div class="btns_all display-4 px-2 ">
+                       
+                        <!--<button class="buttons btns-dark me-0" onclick="rac('C')">C</button>-->
+                        <div class="buttons btns_dark me-0" onclick="rac('C')">C</div>
+                        <div class="buttons btns_dark me-0" onclick="rac('/')">&divide;</div>
+                        <div class="buttons btns_dark me-0" onclick="rac('*')">&times;</div>
+                        <div class="buttons brisanje btns_dark me-0" onclick="rac('del')">&#9003;</div>
+                            
+                        <div class="buttons btn-secondary me-0" value="7" onclick="rac('7')">7</div>
+                        <div class="buttons btn-secondary me-0" value="8" onclick="rac('8')">8</div>
+                        <div class="buttons btn-secondary me-0" value="9" onclick="rac('9')">9</div>
+                        <div class="buttons btns_dark" value="-" onclick="rac('-')">&minus;</div>
+                        
+                        <div class="buttons btn-secondary me-0" value="4" onclick="rac('4')">4</div>
+                        <div class="buttons btn-secondary me-0" value="5" onclick="rac('5')">5</div>
+                        <div class="buttons btn-secondary me-0" value="6" onclick="rac('6')">6</div>
+                        <div class="buttons btns_dark col" value="+" onclick="rac('+')">&plus;</div>
+
+                        <div class="buttons btn-secondary me-0" value="1" onclick="rac('1')">1</div>
+                        <div class="buttons btn-secondary me-0" value="2"onclick="rac('2')">2</div>
+                        <div class="buttons btn-secondary me-0" value="3" onclick="rac('3')">3</div>
+                        <div class="buttons jednako bg-danger" value="="onclick="rac('=')" >&equals;</div>
+
+                        <div class="buttons nula btn-secondary me-0" value="0" onclick="rac('0')">0</div>
+                        <div class="buttons btn-secondary me-0" value="0" onclick="rac('.')">&dot;</div>
+                        
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
